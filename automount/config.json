@@ -7,8 +7,7 @@
   "boot": "auto",
   "hassio_api": false,
   "host_network": true,
-  "privileged": true,
-  "cap_add": ["SYS_ADMIN", "DAC_READ_SEARCH"],
+  "privileged": ["SYS_ADMIN", "DAC_READ_SEARCH"],
   "build": true,
   "options": {},
   "schema": {}
