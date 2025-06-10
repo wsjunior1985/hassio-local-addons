@@ -1,0 +1,14 @@
+{
+  "name": "Auto Mount HD",
+  "version": "1.0.0",
+  "slug": "automount",
+  "description": "Monta automaticamente o HD externo para acesso pelo HA.",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": false,
+  "host_network": true,
+  "privileged": ["SYS_ADMIN", "DAC_READ_SEARCH"],
+  "map": ["media:rw", "share:rw", "config:rw"],
+  "options": {},
+  "schema": {}
+}
